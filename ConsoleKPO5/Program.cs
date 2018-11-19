@@ -30,6 +30,7 @@ namespace ConsoleKPO5
             HeapSort heapSort = new HeapSort();
             result = heapSort.Sort(mass, size);
             i = 0;
+            Console.WriteLine("Sorted mass:");
             while (i < size)
             {
                 Console.WriteLine(result[i].ToString());
